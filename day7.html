@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+    <style>
+      .md {
+        height: 120vh;
+        background-color: white;
+        border: 2px solid orange;
+        display: flex;
+        gap: 10px 10px;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-content: center;
+        padding-left: 100px;
+        box-shadow: 0cap;
+
+      }
+      @media(max-width:500px){
+        .md{
+          background-color:grey;
+        flex-direction: row;
+
+
+        }
+      
+      }
+
+      
+       
+      
+      .card {
+        background-color: gainsboro;
+        width: 400px;
+        height: 200px;
+      }
+      .hi {
+        display: flex;
+        flex-direction: row;
+      }
+      .rate {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md">
+      <div class="card">
+        <div class="hi">
+          <img height="130" width="150" src="../assests/images/meesho.jpg" />
+          <div>
+            <h1>Meesho</h1>
+            <p>Online Shopping</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <p>
+          Whether you're looking for the latest gadgets, fashion trends, or
+          everyday essentials, online shopping makes it easier than ever to find
+          exactly what you need
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="hi">
+          <img height="130" width="150" src="../assests/images/jio.jpeg" />
+          <div>
+            <h1>Jio-Saavan</h1>
+            <p>Free Music</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <p>
+          Jio-Saavan is a leading music streaming app that offers millions of
+          songs and podcasts, personalized playlists, and seamless listening
+          across all your devices
+        </p>
+      </div>
+      <div class="card">
+        <div class="hi">
+          <img height="130" width="150" src="../assests/images/myntra.png" />
+          <div>
+            <h1>Myntra</h1>
+            <p>Shopping</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <p>
+          Myntra is a popular Indian e-commerce platform specializing in fashion
+          and lifestyle products, offering a wide range of clothing,
+          accessories, and footwear from top brands.
+        </p>
+      </div>
+      <div class="card">
+        <div class="hi">
+          <img height="130" width="150" src="../assests/images/flip.png" />
+          <div>
+            <h1>Flipkart</h1>
+            <p>Online shopping</p>
+            <span class="heading">User Rating</span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star checked rate"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <p>
+          Flipkart is a leading Indian e-commerce platform that offers a vast
+          selection of products ranging from electronics and fashion
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

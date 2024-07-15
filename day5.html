@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [class] {
+        border: 5px solid cyan;
+        height: 200px;
+        width: 200px;
+        background-color: chocolate;
+      }
+      [id="fname"] {
+        background-color: brown;
+      }
+      [name="Sweety"] {
+        border: 2px solid red;
+      }
+      [type="text"] {
+        color: darkmagenta;
+      }
+      [for="fname"] {
+        color: cornflowerblue;
+        font-size: medium;
+      }
+
+      [for="sname"] {
+        color: coral;
+      }
+      [for~="Reg.No"] {
+        color: deeppink;
+      }
+      [for|="email"] {
+        color: darkolivegreen;
+      }
+      [for^="_pas"] {
+        color: mediumorchid;
+      }
+      [for$="tel"] {
+        color: darkorange;
+      }
+      [for*="add"] {
+        color: firebrick;
+      }
+      [for~="Date"] {
+        color: khaki;
+      }
+      [for|="Institute Name-"] {
+        color: aqua;
+      }
+      [for$="nge"] {
+        color: crimson;
+      }
+      [for~="color"] {
+        color: chartreuse;
+      }
+      [type$="mit"] {
+        color: darkblue;
+      }
+      [type~="File"] {
+        color: darksalmon;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="md"></div>
+    <h1 style="text-align: center">Registration Form</h1>
+    <form>
+      <label for="fname"> FirstName :</label><br />
+      <input type="text" name="firstname" placeholder="firstname" /><br />
+      <label for="sname"> SecondName :</label><br />
+      <input type="text" name="Secondname" placeholder="secondname" /><br />
+      <label for="Reg.No"> Reg.No :</label><br />
+      <input type="text" name="Number" placeholder="reg.no" /><br />
+      <label for="email-"> Emailid :</label><br />
+      <input type="text" name="emailid" placeholder="emailid" /><br />
+      <label for="_password"> Password :</label><br />
+      <input type="text" name="password" placeholder="password" /><br />
+      <label for="Re-enter password"> Re-enter Password :</label><br />
+      <input type="text" name="password" placeholder="password" /><br />
+      <label for="tel">Mobile Num :</label><br />
+      <input type="tel" name="Mobile Num" placeholder="number" /><br />
+      <label for="address"> Address :</label><br />
+      <textarea></textarea><br />
+
+      <label for="Date"> Date and Time:</label><br />
+      <input type="datetime-local" name="Date" /><br />
+
+      <label for="Institute Name-">Institute Name :</label><br />
+      <input type="text" name="College Name" /><br />
+
+      <p>Resume Upload</p>
+      <input type="File" name="File Upload" accept="File/*" /><br />
+      <label for="Range">Range:</label><br />
+      <input type="Range" name="Range" /><br />
+      <label for="color">colour :</label><br />
+      <input type="color" value="color" /><br />
+
+      <input type="Submit" value="Register" formaction="./task9.html" />
+      <input type="submit" value="Reset" /><br />
+    </form>
+  </body>
+</html>
